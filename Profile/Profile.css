@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    margin: auto;
+}
+.main{
+    box-sizing: border-box;
+    box-shadow: 3px 2px 3px 2px gray;
+    width: 400px;
+    height: 320px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+.main img{
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+    align-items: center;
+}
+.f{
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+    height: max-content;
+    background-color:rgb(16, 55, 228);
+    color:white ;
+}
